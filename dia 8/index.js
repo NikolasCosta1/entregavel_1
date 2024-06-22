@@ -25,7 +25,7 @@ function calculadora(num1, num2, operador){
             }
             break;
         default:
-            console.log('nao tem essa operação')
+            console.log('nao tem essa operação');
     }
     if(resultado == undefined || resultado > 1000000)
         resultado = 'ERRO'

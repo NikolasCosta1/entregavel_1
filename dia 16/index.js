@@ -55,7 +55,7 @@ function calcularMedias(arrayAlunos){
     let soma = 0
     arrayAlunos.forEach(aluno => {
         soma += Number(aluno.Nota)
-    }); 
+    });     
     let media = soma / arrayAlunos.length
     return media
 }
